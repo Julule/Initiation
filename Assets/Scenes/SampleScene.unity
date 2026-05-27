@@ -551,7 +551,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a14034588e420e4ea4de4f57aa0dd66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ChangeColor
-  Couleur: {r: 1, g: 0.2705882, b: 0, a: 1}
+  _Couleur: {r: 0.8396226, g: 0.5909552, b: 0.18614274, a: 0}
 --- !u!1 &812006768
 GameObject:
   m_ObjectHideFlags: 0
@@ -692,7 +692,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a14034588e420e4ea4de4f57aa0dd66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BecomeRed
-  Couleur: {r: 0.482353, g: 0.4078432, b: 0.9333334, a: 1}
+  _Couleur: {r: 0.6389212, g: 0.8301887, b: 0.36418653, a: 0}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0

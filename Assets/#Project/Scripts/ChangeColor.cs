@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ChangeColor : MonoBehaviour
 {
-    public Color Couleur;
+    public Color _Couleur;
     // public enum Reaction
     // {
     //     Disappear,
@@ -12,7 +12,7 @@ public class ChangeColor : MonoBehaviour
     // public Reaction reaction;
         void OnTriggerEnter(Collider other) // "lorsque qqch entrer dans le collide space"
         {
-        GetComponent<Renderer>().material.color = Couleur;
+            GetComponent<Renderer>().material.color = _Couleur;
         }
     }
 
